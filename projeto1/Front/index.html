@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"  href="style.css" />
+    <title>Filmes</title>
+</head>
+<body>
+    <nav>
+        <section id="cadastro">
+            <div>
+                <label for="name">Nome:</label>
+                <input type="text" id="nome" placeholder="Nome do Filme"/>
+            </div>
+            <div>
+                <label for="imagem">Imagem:</label>
+                <input type="text" id="imagem" placeholder="Inserir URL"/>
+            </div>
+            <div>
+                <label for="genero">Genero:</label>
+                <input type="text" id="genero" placeholder="Digite o genero"/>
+            </div>
+            <div>
+                <label for="nota">Nota:</label>
+                <input type="text" id="nota" placeholder="Digite a nota"/>
+            </div>
+            <button onclick="submitForm()" class="botao">Adicionar Filme</button>
+        </section>
+    </nav>
+    <header>
+        <center>
+        <h1>Filmes</h1>
+        </center>
+        <div>
+            <section id='choice'>
+                <label for="valueID" required=''>Digite ID do Filme:</label>
+                <input type="number" id="valueID" placeholder="Digite o id do Filme">
+                <button onclick="buscarFilmePorId()" class="botao">Escolher </button>
+            </section>
+        </di>
+        <p></p>
+        <section>
+            <div id="Escolhido">
+            </div>
+        </section>
+    </header>
+    <main>
+        <div id="Lista">
+        </div>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>

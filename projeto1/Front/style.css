@@ -1,0 +1,138 @@
+#lista img{
+    width: 250px;
+    height: 320px;
+}
+.card{
+    background-color:white;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px black;
+    text-align: center;
+    width: 250px;
+}
+#card2{
+    padding: 10px;
+    text-align: center;
+    width: 400px;
+}
+#card2 img{
+    width: 280px;
+    height: 400px;
+}
+#card2 .nome{
+    font-size: 35px;
+    text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,  0 0 0.2em #87F;
+}
+#lista{
+    display: flex;
+    gap: 15px 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.nome{
+    font-size: larger;
+    font-weight: bolder;
+}
+.texto{
+    color: black;
+}
+#cadastro{
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+}
+#cadastro label{
+    margin-left: 20px;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+#cadastro input{
+    width: 100px;
+}
+#choice{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-weight: bold;
+}
+#escolha{
+    display: flex;
+    justify-content: center;
+}
+#cadastro button{
+    font-size: 0.8em;
+    background: #F90;
+    border: 0;
+    color: #FFF;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+#choice button{
+    font-size: 0.85em;
+    background: #F90;
+    border: 0;
+    color: #FFF;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+.botao {
+    font-size: 1.5em;
+    background: #F90;
+    border: 0;
+    color: #FFF;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.botao:hover {
+    background: #FB0;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.botao, select, label.checkbox {
+    cursor: pointer;
+}
+body {
+    /* border: 5px  solid green; */
+    height: 500%;
+    background: -webkit-linear-gradient(
+      rgb(218, 49, 49),
+      rgba(228, 228, 51, 0.83)
+    );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+  }
+  body {
+    font-family: sans-serif;
+}
+
+.indicator.online {
+    background: #28B62C;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+}
+
+
+
+.indicator.offline {
+    background: #FF4136;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    
+}
